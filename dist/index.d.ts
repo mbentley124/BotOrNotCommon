@@ -6,7 +6,8 @@ export declare enum RequestType {
     LOGIN = 0,
     SEARCH = 1,
     MESSAGE = 2,
-    GUESS = 3
+    GUESS = 3,
+    KEEP_ALIVE = 4
 }
 export interface IRequest {
     type: RequestType;

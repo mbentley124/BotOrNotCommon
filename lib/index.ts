@@ -8,6 +8,7 @@ export enum RequestType {
 	SEARCH,
 	MESSAGE,
 	GUESS,
+	KEEP_ALIVE
 }
 
 // Requests are all messages from the Client to the Server

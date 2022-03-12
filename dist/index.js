@@ -7,6 +7,7 @@ var RequestType;
     RequestType[RequestType["SEARCH"] = 1] = "SEARCH";
     RequestType[RequestType["MESSAGE"] = 2] = "MESSAGE";
     RequestType[RequestType["GUESS"] = 3] = "GUESS";
+    RequestType[RequestType["KEEP_ALIVE"] = 4] = "KEEP_ALIVE";
 })(RequestType = exports.RequestType || (exports.RequestType = {}));
 var ResponseType;
 (function (ResponseType) {
